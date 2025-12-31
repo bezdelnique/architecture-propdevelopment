@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.0.3">
+  <diagram name="Страница-1" id="fkBcAsD7TimnuDXMjJyb">
+    <mxGraphModel dx="3620" dy="3980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hHxuW6S0GXpPSTIki61A-43" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Определение рисков&lt;/h1&gt;&lt;p&gt;Утечка данных — несанкционированное раскрытие конфиденциальной или защищённой информации третьим лицам, например, в результате взлома, социальной инженерии или ошибки персонала.&lt;/p&gt;&lt;p&gt;Потеря данных — полное или частичное уничтожение информации, вследствие сбоев оборудования, программных ошибок, действий злоумышленников или человеческого фактора, при котором восстановление невозможно или затруднено.&lt;/p&gt;&lt;p&gt;Искажение данных — несанкционированное или ошибочное изменение информации, приводящее к её недостоверности; может быть вызвано вредоносным ПО, сбоями систем или действиями злоумышленников.&lt;/p&gt;&lt;p&gt;Некачественные данные — информация, содержащая ошибки, дубли, неполноту или несоответствия, что снижает её полезность, надёжность и может привести к неверным решениям или нарушениям в бизнес-процессах.&lt;/p&gt;&lt;p&gt;Обесценивание данных — снижение ценности информации вследствие её устаревания, дублирования, утечки, потери актуальности или доверия к ней, что делает её менее полезной для принятия решений или выполнения операций.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="790" y="-110" width="650" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="hHxuW6S0GXpPSTIki61A-44" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Категории данных&lt;/h1&gt;&lt;p&gt;Публичные данные — информация, которая не подлежит ограничению. Данные могут быть свободно распространены и не представляют угрозы для компании. Например, пресс-релизы или публичная информация на сайте.&lt;/p&gt;&lt;p&gt;Внутренние данные — информация для внутреннего использования в организации.&lt;/p&gt;&lt;p&gt;Например, внутренние инструкции, отчёты или данные о работе внутренних систем.&lt;/p&gt;&lt;p&gt;Конфиденциальные данные — информация, которая имеет высокую ценность и ограничена в распространении. Например, персональные данные, финансовая информация или коммерческая тайна.&lt;/p&gt;&lt;p&gt;Секретные данные — информация, утечка которой может привести к самым серьёзным последствиям для организации или нарушению законодательства. Например, платёжные данные или государственная тайна.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry y="-110" width="650" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="hHxuW6S0GXpPSTIki61A-6" value="Безопасность данных" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="740" y="840" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hHxuW6S0GXpPSTIki61A-2" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" parent="1" source="hHxuW6S0GXpPSTIki61A-6" target="hHxuW6S0GXpPSTIki61A-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-39" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="hHxuW6S0GXpPSTIki61A-7" target="nDULeoEWiYzlIrIUgEna-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-40" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="hHxuW6S0GXpPSTIki61A-7" target="nDULeoEWiYzlIrIUgEna-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-41" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHxuW6S0GXpPSTIki61A-7" target="nDULeoEWiYzlIrIUgEna-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-57" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="hHxuW6S0GXpPSTIki61A-7" target="nDULeoEWiYzlIrIUgEna-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHxuW6S0GXpPSTIki61A-7" value="Публичные данные" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="930" y="1200" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hHxuW6S0GXpPSTIki61A-27" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;strokeColor=light-dark(#000000,#3333FF);" parent="1" source="hHxuW6S0GXpPSTIki61A-7" target="hHxuW6S0GXpPSTIki61A-26" edge="1">
+          <mxGeometry x="800" y="315" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hHxuW6S0GXpPSTIki61A-26" value="&lt;div&gt;Объекты недвижимости для онлайн-тура&lt;/div&gt;&lt;div&gt;Объекты недвижимости для онлайн-витрины&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};strokeColor=light-dark(#000000,#3333FF);" parent="1" vertex="1">
+          <mxGeometry x="1240" y="1090" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hHxuW6S0GXpPSTIki61A-4" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" parent="1" source="hHxuW6S0GXpPSTIki61A-6" target="hHxuW6S0GXpPSTIki61A-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-75" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHxuW6S0GXpPSTIki61A-9" target="nDULeoEWiYzlIrIUgEna-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-77" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHxuW6S0GXpPSTIki61A-9" target="nDULeoEWiYzlIrIUgEna-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-78" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHxuW6S0GXpPSTIki61A-9" target="nDULeoEWiYzlIrIUgEna-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-79" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHxuW6S0GXpPSTIki61A-9" target="nDULeoEWiYzlIrIUgEna-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-80" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHxuW6S0GXpPSTIki61A-9" target="nDULeoEWiYzlIrIUgEna-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHxuW6S0GXpPSTIki61A-9" value="Секретные данные" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="315" y="575" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hHxuW6S0GXpPSTIki61A-23" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;strokeColor=light-dark(#000000,#3333FF);" parent="1" source="hHxuW6S0GXpPSTIki61A-9" target="hHxuW6S0GXpPSTIki61A-22" edge="1">
+          <mxGeometry x="-90" y="285" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hHxuW6S0GXpPSTIki61A-22" value="&lt;div&gt;Данные бухучета&lt;/div&gt;&lt;div&gt;Данные бизнес-анализа&lt;/div&gt;&lt;div&gt;&lt;div&gt;Данные службы каталогов (Active Directory)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};strokeColor=light-dark(#000000,#3333FF);" parent="1" vertex="1">
+          <mxGeometry x="-100" y="230" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hHxuW6S0GXpPSTIki61A-15" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" parent="1" source="hHxuW6S0GXpPSTIki61A-6" target="hHxuW6S0GXpPSTIki61A-14" edge="1">
+          <mxGeometry x="330" y="590" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-61" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHxuW6S0GXpPSTIki61A-14" target="hHxuW6S0GXpPSTIki61A-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-62" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHxuW6S0GXpPSTIki61A-14" target="hHxuW6S0GXpPSTIki61A-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-63" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="hHxuW6S0GXpPSTIki61A-14" target="nDULeoEWiYzlIrIUgEna-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHxuW6S0GXpPSTIki61A-14" value="Конфиденциальные данные" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="460" y="1370" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hHxuW6S0GXpPSTIki61A-20" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" parent="1" source="hHxuW6S0GXpPSTIki61A-14" target="hHxuW6S0GXpPSTIki61A-21" edge="1">
+          <mxGeometry x="30" y="485" width="80" height="20" as="geometry">
+            <mxPoint x="680" y="1535" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hHxuW6S0GXpPSTIki61A-21" value="Утечка данных - критический" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="90" y="1410" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-64" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="hHxuW6S0GXpPSTIki61A-34" target="nDULeoEWiYzlIrIUgEna-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHxuW6S0GXpPSTIki61A-34" value="Потеря данных - критический" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="90" y="1550" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-66" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="hHxuW6S0GXpPSTIki61A-36" target="nDULeoEWiYzlIrIUgEna-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHxuW6S0GXpPSTIki61A-36" value="Некачественные данные - значительный" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="55" y="1660" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-68" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="hHxuW6S0GXpPSTIki61A-38" target="nDULeoEWiYzlIrIUgEna-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHxuW6S0GXpPSTIki61A-38" value="Искажение данных - значительный" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="70" y="1770" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-1" value="Репутационные риски, остановка работы компании, фин.потери" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="1560" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hHxuW6S0GXpPSTIki61A-54" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hHxuW6S0GXpPSTIki61A-21" target="hHxuW6S0GXpPSTIki61A-53" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHxuW6S0GXpPSTIki61A-53" value="Информация о клиентах, собственниках и сделках является персональными данными&lt;br&gt;&lt;br&gt;Информация о пользователях может быть использована для несанкционированного доступа&lt;br&gt;&lt;br&gt;Данные об интеграциях с ЖКХ и управления умным домом компроментируют компанию и могут нанести ущерб клиенту." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-370" y="1279" width="270" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="hHxuW6S0GXpPSTIki61A-19" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;strokeColor=light-dark(#000000,#3333FF);" parent="1" source="hHxuW6S0GXpPSTIki61A-14" target="hHxuW6S0GXpPSTIki61A-18" edge="1">
+          <mxGeometry x="30" y="485" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hHxuW6S0GXpPSTIki61A-18" value="&lt;div&gt;Информация о клиентах&lt;/div&gt;&lt;div&gt;Информация о собственниках&lt;/div&gt;&lt;div&gt;Информация о сделках&lt;/div&gt;&lt;div&gt;Данные о пользователях (авторизация)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};strokeColor=light-dark(#000000,#3333FF);" parent="1" vertex="1">
+          <mxGeometry x="-30" y="1130" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-17" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=light-dark(#000000,#3333FF);" edge="1" parent="1" source="nDULeoEWiYzlIrIUgEna-14" target="nDULeoEWiYzlIrIUgEna-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-24" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="nDULeoEWiYzlIrIUgEna-14" target="nDULeoEWiYzlIrIUgEna-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-25" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="nDULeoEWiYzlIrIUgEna-14" target="nDULeoEWiYzlIrIUgEna-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-48" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="nDULeoEWiYzlIrIUgEna-14" target="nDULeoEWiYzlIrIUgEna-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-14" value="Внутренние данные" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="950" y="590" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-15" value="&lt;div&gt;Данные об интеграции с поставщиками ресурсов ЖКХ&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Данные об интеграции с системой управления умным домом&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Данные об интеграции с системами онлайн-платежей&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};strokeColor=light-dark(#000000,#3333FF);" vertex="1" parent="1">
+          <mxGeometry x="1305" y="360" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-16" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.63;entryY=0.922;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hHxuW6S0GXpPSTIki61A-6" target="nDULeoEWiYzlIrIUgEna-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-32" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="nDULeoEWiYzlIrIUgEna-20" target="nDULeoEWiYzlIrIUgEna-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-20" value="Утечка данных - значительный" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1370" y="520" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-31" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="nDULeoEWiYzlIrIUgEna-21" target="nDULeoEWiYzlIrIUgEna-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-21" value="Потеря данных - незначительный" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1380" y="590" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-29" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="nDULeoEWiYzlIrIUgEna-23" target="nDULeoEWiYzlIrIUgEna-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-23" value="Искажение данных - значительный" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1355" y="660" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-27" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="nDULeoEWiYzlIrIUgEna-14" target="nDULeoEWiYzlIrIUgEna-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-28" value="Фактически речь об API ключах в сторонние системы. &lt;br&gt;&lt;br&gt;Утечка данных может привести к атаке на клиентов и репутационным рискам. &lt;br&gt;&lt;br&gt;Искажение данных - так же может отразиться на данных, например в случает когда пользователь управляет не своим аккаунтом.&lt;br&gt;&lt;br&gt;Потеря данных - это вопрос простоя сервиса. В прочем для онлайн-оплаты это может быть критично.&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="500" width="340" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-34" value="Утечка данных - бессмыслено" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1275" y="1540" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-44" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="nDULeoEWiYzlIrIUgEna-35" target="nDULeoEWiYzlIrIUgEna-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-35" value="Потеря данных - значительный" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1255" y="1220" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-45" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="nDULeoEWiYzlIrIUgEna-36" target="nDULeoEWiYzlIrIUgEna-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-36" value="Некачественные данные - значительный" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1290" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-46" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="nDULeoEWiYzlIrIUgEna-37" target="nDULeoEWiYzlIrIUgEna-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-37" value="Искажение данных - значительный" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1265" y="1370" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-38" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="hHxuW6S0GXpPSTIki61A-7" target="nDULeoEWiYzlIrIUgEna-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-42" value="Угроза сводится к введению пользователя в заблуждение. Что несет репутационные риски.&lt;div&gt;&lt;br&gt;Потеря данных - простои сервиса, фин.потери.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="1240" width="280" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-47" value="Некачественные данные - бессмыслено" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1340" y="750" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-52" value="Обесценивание данных - бессмыслено" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1360" y="810" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-53" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" target="nDULeoEWiYzlIrIUgEna-52" parent="1" source="nDULeoEWiYzlIrIUgEna-14">
+          <mxGeometry x="1080" y="595" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-55" value="Обесценивание данных - бессмыслено" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1460" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-58" value="Обесценивание данных - бессмыслено" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="55" y="1880" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-60" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHxuW6S0GXpPSTIki61A-14" target="hHxuW6S0GXpPSTIki61A-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-65" value="Ошибки в принятии решений. Ошибки во взаимодействии с клиентами и собственниками." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="1710" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-82" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="nDULeoEWiYzlIrIUgEna-69" target="nDULeoEWiYzlIrIUgEna-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-69" value="Утечка данных - критический" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-105" y="355" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-83" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="nDULeoEWiYzlIrIUgEna-70" target="nDULeoEWiYzlIrIUgEna-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-70" value="Потеря данных - критический" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-105" y="495" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-84" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="nDULeoEWiYzlIrIUgEna-71" target="nDULeoEWiYzlIrIUgEna-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-71" value="Некачественные данные - критический" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-135" y="605" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-85" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="nDULeoEWiYzlIrIUgEna-72" target="nDULeoEWiYzlIrIUgEna-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-72" value="Искажение данных - критический" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-120" y="715" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-73" value="Обесценивание данных - бессмыслено" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-140" y="825" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDULeoEWiYzlIrIUgEna-81" value="Данные бухучета критичны для деятельности компании.&lt;br&gt;&lt;br&gt;Любые искажения в данных бухучета недопустимы. Искажение в данных бизнесс-анализа менее критично, но ведет к неверным выводам.&lt;br&gt;&lt;br&gt;Утечки данных службы каталогов - критичны с точки зрения утечки." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="444" width="270" height="161" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
