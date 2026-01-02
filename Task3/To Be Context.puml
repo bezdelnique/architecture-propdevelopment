@@ -1,0 +1,61 @@
+@startuml
+title "Диаграмма контекста интеграций Интеллектуальный шлагбаум и Интеллектуальный домофон"
+
+top to bottom direction
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+
+Person(Owner, "Собственник")
+Person_Ext(Visitor, "Посетитель")
+
+System_Boundary(PropDevelopmentApp, "Приложения использующие API") {
+    System(WebApp, "WebApp")
+}
+
+Boundary(PhysicalWorld, "Физический мир") {
+    System_Ext(BarrierDevice, "Интеллектуальный шлагбаум")
+    System_Ext(IntercomDevice, "Интеллектуальный домофон")
+}
+
+System_Boundary(PropDevelopmentApi, "Группа сервисов ЖКУ") {
+    System(BarrierApi, "Интеллектуальный шлагбаум")
+    System(IntercomApi, "Интеллектуальный домофон")
+}
+
+System_Boundary(Partner1, "Система Партнер1") {
+    System_Ext(PartnerBarrierApi, "Интеллектуальный шлагбаум API")
+}
+
+System_Boundary(Partner2, "Система Партнер2") {
+    System_Ext(PartnerIntercomApi, "Интеллектуальный домофон API")
+}
+
+
+' ------------------------------------------
+
+Rel(Owner, WebApp, "Распознавание лица или ввод кода")
+Rel(WebApp, PropDevelopmentApi, "Открытие шлагбаума")
+Rel(WebApp, PropDevelopmentApi, "Открытие домофона")
+
+
+' Intercom
+Rel(Owner, IntercomDevice, "Распознавание лица или ввод кода")
+Rel(Visitor, IntercomDevice, "Ввод кода")
+
+Rel(IntercomDevice, PartnerIntercomApi, "Передает команду или данные для интеркома")
+Rel(IntercomApi, PartnerIntercomApi, "Передает команду для интеркома")
+Rel(PartnerIntercomApi, IntercomDevice, "Передает команду интеркому")
+
+
+' Barrier
+Rel(Owner, BarrierDevice, "Распознавание лица или ввод кода")
+Rel(Visitor, BarrierDevice, "Ввод кода")
+
+Rel(BarrierDevice, PartnerBarrierApi, "Передает команду или данные для шлагбаума")
+Rel(BarrierApi, PartnerBarrierApi, "Передает команду для шлагбаума")
+Rel(PartnerBarrierApi, BarrierDevice, "Передает команду шлагбауму")
+
+
+@enduml
+
