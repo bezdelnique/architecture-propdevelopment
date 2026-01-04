@@ -7,6 +7,7 @@ top to bottom direction
 
 
 Person(Owner, "Собственник")
+Person(OwnerCar, "Машина собственника")
 Person_Ext(Visitor, "Посетитель")
 
 System_Boundary(PropDevelopmentApp, "Приложения использующие API") {
@@ -34,7 +35,8 @@ System_Boundary(Partner2, "Система Партнер2") {
 
 ' ------------------------------------------
 
-Rel(Owner, WebApp, "Распознавание лица или ввод кода")
+Rel(Owner, WebApp, "Команда открытия домофона")
+Rel(Owner, WebApp, "Команда открытия шлагбаума")
 Rel(WebApp, PropDevelopmentApi, "Открытие шлагбаума")
 Rel(WebApp, PropDevelopmentApi, "Открытие домофона")
 
@@ -49,8 +51,7 @@ Rel(PartnerIntercomApi, IntercomDevice, "Передает команду инт�
 
 
 ' Barrier
-Rel(Owner, BarrierDevice, "Распознавание лица или ввод кода")
-Rel(Visitor, BarrierDevice, "Ввод кода")
+Rel(OwnerCar, BarrierDevice, "Распознавание номера")
 
 Rel(BarrierDevice, PartnerBarrierApi, "Передает команду или данные для шлагбаума")
 Rel(BarrierApi, PartnerBarrierApi, "Передает команду для шлагбаума")
